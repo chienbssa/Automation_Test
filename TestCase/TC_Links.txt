@@ -1,0 +1,53 @@
+Chức năng: Links
+URL: https://demoqa.com/links
+
+Test Case 15: Click link mở tab mới (Home)
+ID: TC_LINK_01
+Tên test case: Verify Home link opens new tab
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/links
+    3	    Click link “Home”
+
+Kết quả mong đợi:
+    Mở tab mới
+    Tab mới điều hướng đến trang chủ demoqa.com
+
+Test Case 16: Click Home link (dynamic)
+ID: TC_LINK_02
+Tên test case: Verify dynamic Home link opens new tab
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/links
+    2	    Click link “Home (dynamic)”
+
+Kết quả mong đợi:
+    Mở tab mới
+    Điều hướng đến trang chủ demoqa.com
+
+Test Case 17: Click API link – Created
+ID: TC_LINK_03
+Tên test case: Verify Created link response
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/links
+    2	    Click link “Created”
+
+Kết quả mong đợi:
+    Hiển thị message “Link has responded with staus 201 and status text Created”
+
+Test Case 18: Click API link – Not Found
+ID: TC_LINK_04
+Tên test case: Verify Not Found link response
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/links
+    2	    Click link “Not Found”
+
+Kết quả mong đợi:
+    Hiển thị message “status 404”
