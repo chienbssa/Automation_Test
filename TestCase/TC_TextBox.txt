@@ -1,0 +1,38 @@
+Tên chức năng: Text Box
+URL: https://demoqa.com/text-box
+
+Test Case 1: Submit form Text Box với dữ liệu hợp lệ
+ID: TC_TEXTBOX_01
+Tên test case: Submit Text Box form thành công với dữ liệu hợp lệ
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/text-box
+    3	    Nhập Full Name = Nguyen Van A
+    4	    Nhập Email = test@gmail.com
+    5	    Nhập Current Address = Ha Noi
+    6	    Nhập Permanent Address = TP HCM
+    7	    Click nút Submit
+
+Kết quả mong đợi:
+    Thông tin đã nhập được hiển thị bên dưới form
+    Hiển thị đúng Full Name và Email
+
+Test Case 2: Submit form với email không hợp lệ
+ID: TC_TEXTBOX_02
+Tên test case: Submit Text Box form với email không hợp lệ
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/text-box
+
+    2	    Nhập Full Name = Nguyen Van A
+    3	    Nhập Email = testgmail.com
+    4	    Nhập Current Address
+    5	    Nhập Permanent Address
+    6	    Click Submit
+
+Kết quả mong đợi:
+    Form không được submit
+    Ô Email bị highlight màu đỏ

@@ -1,0 +1,46 @@
+Chức năng: Check Box
+URL: https://demoqa.com/checkbox
+
+Test Case 3: Chọn checkbox Home
+ID: TC_CHECKBOX_01
+Tên test case: Select Home checkbox
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/checkbox
+    3	    Click nút Expand All
+    4	    Chọn checkbox Home
+
+Kết quả mong đợi:
+    Checkbox Home được chọn
+    Kết quả hiển thị bên dưới có chữ "home"
+
+Test Case 4: Chọn checkbox Desktop
+ID: TC_CHECKBOX_02
+Tên test case: Select Desktop checkbox
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/checkbox
+    2   	Click Expand All
+    3	    Chọn checkbox Desktop
+
+Kết quả mong đợi:
+    Checkbox Desktop được chọn
+    Kết quả hiển thị có chữ "desktop"
+
+Test Case 5: Chọn nhiều checkbox
+ID: TC_CHECKBOX_03
+Tên test case: Select multiple checkboxes
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/checkbox
+    2	    Click Expand All
+    3	    Chọn Desktop
+    4	    Chọn Documents
+
+Kết quả mong đợi:
+    Các checkbox được chọn
+    Kết quả hiển thị có "desktop" và "documents"
