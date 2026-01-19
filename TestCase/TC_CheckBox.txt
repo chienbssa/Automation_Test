@@ -1,7 +1,7 @@
 Chức năng: Check Box
 URL: https://demoqa.com/checkbox
 
-Test Case 3: Chọn checkbox Home
+Test Case 1: Chọn checkbox Home
 ID: TC_CHECKBOX_01
 Tên test case: Select Home checkbox
 
@@ -16,7 +16,7 @@ Kết quả mong đợi:
     Checkbox Home được chọn
     Kết quả hiển thị bên dưới có chữ "home"
 
-Test Case 4: Chọn checkbox Desktop
+Test Case 2: Chọn checkbox Desktop
 ID: TC_CHECKBOX_02
 Tên test case: Select Desktop checkbox
 
@@ -30,7 +30,7 @@ Kết quả mong đợi:
     Checkbox Desktop được chọn
     Kết quả hiển thị có chữ "desktop"
 
-Test Case 5: Chọn nhiều checkbox
+Test Case 3: Chọn nhiều checkbox
 ID: TC_CHECKBOX_03
 Tên test case: Select multiple checkboxes
 

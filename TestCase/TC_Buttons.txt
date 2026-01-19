@@ -1,7 +1,7 @@
 Chức năng: Buttons
 URL: https://demoqa.com/buttons
 
-Test Case 12: Double Click button
+Test Case 1: Double Click button
 ID: TC_BUTTON_01
 Tên test case: Verify double click button
 
@@ -14,7 +14,7 @@ Các bước thực hiện:
 Kết quả mong đợi:
     Hiển thị message “You have done a double click”
 
-Test Case 13: Right Click button
+Test Case 2: Right Click button
 ID: TC_BUTTON_02
 Tên test case: Verify right click button
 
@@ -27,7 +27,7 @@ Kết quả mong đợi:
     Hiển thị message “You have done a right click”
     Test Case 14: Click button bình thường
 
-Test Case 14: Click button bình thường
+Test Case 3: Click button bình thường
 ID: TC_BUTTON_03
 Tên test case: Verify dynamic click button
 

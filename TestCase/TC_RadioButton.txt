@@ -1,7 +1,7 @@
 Chức năng: Radio Button
 URL: https://demoqa.com/radio-button
 
-Test Case 6: Chọn radio button “Yes”
+Test Case 1: Chọn radio button “Yes”
 ID: TC_RADIO_01
 Tên test case: Select Yes radio button
 
@@ -15,7 +15,7 @@ Kết quả mong đợi:
     Radio button “Yes” được chọn
     Kết quả hiển thị bên dưới là “You have selected Yes”
 
-Test Case 7: Chọn radio button “Impressive”
+Test Case 2: Chọn radio button “Impressive”
 ID: TC_RADIO_02
 Tên test case: Select Impressive radio button
 
@@ -28,7 +28,7 @@ Kết quả mong đợi:
     Radio button “Impressive” được chọn
     Kết quả hiển thị là “You have selected Impressive”
 
-Test Case 8: Verify radio button “No” bị disable
+Test Case 3: Verify radio button “No” bị disable
 ID: TC_RADIO_03
 Tên test case: Verify No radio button is disabled
 
