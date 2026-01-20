@@ -1,7 +1,7 @@
 Chức năng: Dynamic Properties
 URL: https://demoqa.com/dynamic-properties
 
-Test Case 25: Verify button enabled after 5 seconds
+Test Case 1: Verify button enabled after 5 seconds
 ID: TC_DYNAMIC_01
 Tên test case: Verify button becomes enabled after 5 seconds
 
@@ -18,7 +18,7 @@ Kết quả mong đợi:
     Sau 5 giây button được enable
     Click thành công
 
-Test Case 26: Verify button color changes after 5 seconds
+Test Case 2: Verify button color changes after 5 seconds
 ID: TC_DYNAMIC_02
 Tên test case: Verify color change of button
 
@@ -30,9 +30,9 @@ Các bước thực hiện:
 
 Kết quả mong đợi:
     Màu button thay đổi sau 5 giây
-    Test Case 27: Verify button visible after 5 seconds
+    
 
-Test Case 27: Verify button visible after 5 seconds
+Test Case 3: Verify button visible after 5 seconds
 ID: TC_DYNAMIC_03
 Tên test case: Verify button becomes visible
 

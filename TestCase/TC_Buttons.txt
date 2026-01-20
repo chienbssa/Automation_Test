@@ -25,7 +25,6 @@ Các bước thực hiện:
 
 Kết quả mong đợi:
     Hiển thị message “You have done a right click”
-    Test Case 14: Click button bình thường
 
 Test Case 3: Click button bình thường
 ID: TC_BUTTON_03

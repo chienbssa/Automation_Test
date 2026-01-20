@@ -1,0 +1,61 @@
+Chức năng: Alerts
+URL: https://demoqa.com/alerts
+
+Test Case 1: Accept simple alert
+ID: TC_ALERT_01
+Tên test case: Verify simple alert
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/alerts
+    3	    Click nút “Click me” (Simple Alert)
+    4	    Accept alert
+
+Kết quả mong đợi:
+    Alert hiển thị đúng
+    Alert được đóng sau khi accept
+
+Test Case 2: Accept alert after 5 seconds
+ID: TC_ALERT_02
+Tên test case: Verify timer alert
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/alerts
+    2	    Click nút “Click me” (Timer Alert)
+    3	    Chờ 5 giây
+    4	    Accept alert
+
+Kết quả mong đợi:
+    Alert xuất hiện sau 5 giây
+    Alert được accept thành công
+
+Test Case 3: Dismiss confirm alert
+ID: TC_ALERT_03
+Tên test case: Verify confirm alert dismiss
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/alerts
+    2	    Click nút “Click me” (Confirm Alert)
+    3	    Dismiss alert
+
+Kết quả mong đợi:
+    Alert bị đóng
+    Hiển thị message “You selected Cancel”
+
+Test Case 4: Handle prompt alert
+ID: TC_ALERT_04
+Tên test case: Verify prompt alert
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/alerts
+    2	    Click nút “Click me” (Prompt Alert)
+    3	    Nhập text vào alert
+    4	    Accept alert
+
+Kết quả mong đợi:
+    Alert nhận text nhập vào
+    Message hiển thị đúng nội dung

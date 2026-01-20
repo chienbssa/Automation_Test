@@ -1,7 +1,7 @@
 Chức năng: Broken Links – Images
 URL: https://demoqa.com/broken
 
-Test Case 19: Verify valid image hiển thị đúng
+Test Case 1: Verify valid image hiển thị đúng
 ID: TC_BROKEN_01
 Tên test case: Verify valid image is displayed
 
@@ -15,7 +15,7 @@ Kết quả mong đợi:
     Hình ảnh hiển thị bình thường
     Không bị vỡ (broken)
 
-Test Case 20: Verify broken image không hiển thị
+Test Case 2: Verify broken image không hiển thị
 ID: TC_BROKEN_02
 Tên test case: Verify broken image
 
@@ -28,7 +28,7 @@ Kết quả mong đợi:
     Hình ảnh không hiển thị
     Image bị broken
 
-Test Case 21: Click valid link
+Test Case 3: Click valid link
 ID: TC_BROKEN_03
 Tên test case: Verify valid link navigation
 
@@ -41,7 +41,7 @@ Kết quả mong đợi:
     Điều hướng đến trang hợp lệ
     Không gặp lỗi 404
 
-Test Case 22: Click broken link
+Test Case 4: Click broken link
 ID: TC_BROKEN_04
 Tên test case: Verify broken link
 
