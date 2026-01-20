@@ -1,0 +1,30 @@
+Chức năng: Nested Frames
+URL: https://demoqa.com/nestedframes
+
+Test Case 1: Verify parent frame content
+ID: TC_NESTED_FRAME_01
+Tên test case: Verify parent frame
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/nestedframes
+    3	    Switch vào Parent Frame
+    4	    Kiểm tra nội dung Parent Frame
+
+Kết quả mong đợi:
+    Hiển thị text “Parent frame”
+
+Test Case 2: Verify child frame content
+ID: TC_NESTED_FRAME_02
+Tên test case: Verify child frame
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/nestedframes
+    2	    Switch vào Parent Frame
+    3	    Switch tiếp vào Child Frame
+    4	    Kiểm tra nội dung Child Frame
+
+Kết quả mong đợi:
+    Hiển thị text “Child Iframe”

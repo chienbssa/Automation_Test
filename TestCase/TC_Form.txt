@@ -1,7 +1,7 @@
 Chức năng: Practice Form
 URL: https://demoqa.com/automation-practice-form
 
-Test Case 28: Submit Practice Form với dữ liệu hợp lệ
+Test Case 1: Submit Practice Form với dữ liệu hợp lệ
 ID: TC_FORM_01
 Tên test case: Submit Practice Form successfully
 
@@ -25,9 +25,8 @@ Các bước thực hiện:
 Kết quả mong đợi:
     Form được submit thành công
     Popup hiển thị thông tin đã nhập chính xác
-    Test Case 29: Verify required field validation
 
-Test Case 29: Verify required field validation
+Test Case 2: Verify required field validation
 ID: TC_FORM_02
 Tên test case: Verify validation when required fields are empty
 

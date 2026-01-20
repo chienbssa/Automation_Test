@@ -1,7 +1,7 @@
 Chức năng: Upload and Download
 URL: https://demoqa.com/upload-download
 
-Test Case 23: Download file thành công
+Test Case 1: Download file thành công
 ID: TC_UPLOAD_DOWNLOAD_01
 Tên test case: Verify file download successfully
 
@@ -15,7 +15,7 @@ Kết quả mong đợi:
     File được download thành công
     File tồn tại trong thư mục download
 
-Test Case 24: Upload file thành công
+Test Case 2: Upload file thành công
 ID: TC_UPLOAD_DOWNLOAD_02
 Tên test case: Verify file upload successfully
 

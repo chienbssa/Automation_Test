@@ -1,0 +1,29 @@
+Chức năng: Frames
+URL: https://demoqa.com/frames
+
+Test Case 1: Verify content in Frame 1
+ID: TC_FRAME_01
+Tên test case: Verify text in Frame 1
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/frames
+    3	    Switch vào Frame 1
+    4	    Kiểm tra nội dung trong frame
+
+Kết quả mong đợi:
+    Hiển thị text “This is a sample page”
+
+Test Case 2: Verify content in Frame 2
+ID: TC_FRAME_02
+Tên test case: Verify text in Frame 2
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/frames
+    2	    Switch vào Frame 2
+    3	    Kiểm tra nội dung trong frame
+
+Kết quả mong đợi:
+    Hiển thị text “This is a sample page”

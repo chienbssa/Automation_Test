@@ -1,0 +1,42 @@
+Chức năng: Browser Windows
+URL: https://demoqa.com/browser-windows
+
+Test Case 1: Open new tab
+ID: TC_BROWSER_WINDOW_01
+Tên test case: Verify new tab is opened
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/browser-windows
+    3	    Click nút “New Tab”
+
+Kết quả mong đợi:
+    Mở tab mới
+    Tab mới hiển thị nội dung “This is a sample page”
+
+Test Case 2: Open new window
+ID: TC_BROWSER_WINDOW_02
+Tên test case: Verify new window is opened
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/browser-windows
+    2	    Click nút “New Window”
+
+Kết quả mong đợi:
+    Mở cửa sổ mới
+    Cửa sổ mới hiển thị nội dung “This is a sample page”
+
+Test Case 3: Open new window message
+ID: TC_BROWSER_WINDOW_03
+Tên test case: Verify new window message
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/browser-windows
+    2	    Click nút “New Window Message”
+
+Kết quả mong đợi:
+    Mở cửa sổ mới
+    Hiển thị message dạng text
