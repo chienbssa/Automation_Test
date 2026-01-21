@@ -1,0 +1,42 @@
+Chức năng: Accordian
+URL: https://demoqa.com/accordian
+
+Test Case 1: Expand first accordion section
+ID: TC_ACCORDIAN_01
+Tên test case: Verify expand first accordion
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/accordian
+    3	    Click vào tiêu đề “What is Lorem Ipsum?”
+
+Kết quả mong đợi:
+    Section “What is Lorem Ipsum?” được mở
+    Nội dung hiển thị đúng
+
+Test Case 2: Expand second accordion section
+ID: TC_ACCORDIAN_02
+Tên test case: Verify expand second accordion
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/accordian
+    2	    Click vào tiêu đề “Where does it come from?”
+
+Kết quả mong đợi:
+    Section được mở
+    Nội dung hiển thị đúng
+
+Test Case 3: Collapse accordion section
+ID: TC_ACCORDIAN_03
+Tên test case: Verify collapse accordion
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/accordian
+    2	    Click vào section đang mở
+
+Kết quả mong đợi:
+    Section bị đóng
+    Nội dung không còn hiển thị

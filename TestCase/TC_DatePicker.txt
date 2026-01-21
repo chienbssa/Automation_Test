@@ -1,0 +1,43 @@
+Chức năng: Date Picker
+URL: https://demoqa.com/date-picker
+
+Test Case 1: Select date using Date Picker
+ID: TC_DATE_PICKER_01
+Tên test case: Verify select date
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/date-picker
+    3	    Click vào ô “Select Date”
+    4	    Chọn ngày bất kỳ trong calendar
+
+Kết quả mong đợi:
+    Ngày được chọn hiển thị đúng trong input
+
+Test Case 2: Select date and time
+ID: TC_DATE_PICKER_02
+Tên test case: Verify select date and time
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/date-picker
+    2	    Click vào ô “Date And Time”
+    3	    Chọn ngày
+    4	    Chọn thời gian
+
+Kết quả mong đợi:
+    Ngày và giờ hiển thị đúng trong input
+
+Test Case 3: Manual input date
+ID: TC_DATE_PICKER_03
+Tên test case: Verify manual input date
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/date-picker
+    2	    Click vào ô “Select Date”
+    3	    Nhập ngày theo format MM/DD/YYYY
+
+Kết quả mong đợi:
+    Input nhận giá trị đúng định dạng

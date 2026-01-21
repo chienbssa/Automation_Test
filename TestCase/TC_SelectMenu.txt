@@ -1,0 +1,56 @@
+Chức năng: Select Menu
+URL: https://demoqa.com/select-menu
+
+Test Case 1: Select value from Select Value dropdown
+ID: TC_SELECT_MENU_01
+Tên test case: Verify select value dropdown
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/select-menu
+    3	    Click dropdown “Select Value”
+    4	    Chọn giá trị bất kỳ
+
+Kết quả mong đợi:
+    Giá trị được chọn hiển thị đúng
+
+Test Case 2: Select value from Select One dropdown
+ID: TC_SELECT_MENU_02
+Tên test case: Verify select one dropdown
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/select-menu
+    2	    Click dropdown “Select One”
+    3	    Chọn giá trị bất kỳ
+
+Kết quả mong đợi:
+    Giá trị hiển thị đúng
+
+Test Case 3: Select multiple values
+ID: TC_SELECT_MENU_03
+Tên test case: Verify multi select dropdown
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/select-menu
+    2	    Click dropdown “Select…”
+    3	    Chọn nhiều giá trị
+
+Kết quả mong đợi:
+    Nhiều giá trị được chọn
+    Hiển thị dưới dạng tag
+
+Test Case 4: Select option from old style select menu
+ID: TC_SELECT_MENU_04
+Tên test case: Verify old style select menu
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/select-menu
+    2	    Click “Old Style Select Menu”
+    3	    Chọn giá trị bất kỳ
+
+Kết quả mong đợi:
+    Giá trị được chọn hiển thị đúng
