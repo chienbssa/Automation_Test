@@ -22,10 +22,10 @@ Tên test case: Verify broken image
 Các bước thực hiện:
     Bước	Mô tả
     1	    Truy cập https://demoqa.com/broken
-    2	    Quan sát hình ảnh thứ hai (Broken image)
+    2	    Quan sát hình ảnh thứ hai (Broken image) và so sánh với hình ảnh thứ nhất (valid image)
 
 Kết quả mong đợi:
-    Hình ảnh không hiển thị
+    Ảnh broken khác với ảnh valid
     Image bị broken
 
 Test Case 3: Click valid link

@@ -1,0 +1,41 @@
+Chức năng: Menu
+URL: https://demoqa.com/menu
+
+Test Case 1: Hover main menu item
+ID: TC_MENU_01
+Tên test case: Verify hover main menu item
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/menu
+    3	    Hover vào menu “Main Item 1”
+
+Kết quả mong đợi:
+    Không có submenu hiển thị dưới “Main Item 1”
+
+Test Case 2: CVerify nested submenu under Main Item 2
+ID: TC_MENU_02
+Tên test case: Verify nested submenu under Main Item 2
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/menu
+    2	    Hover “Main Item 2”
+    3	    Hover “SUB SUB LIST »”
+
+Kết quả mong đợi:
+    Hiển thị “Sub Sub Item 1”
+    Hiển thị “Sub Sub Item 2”
+
+Test Case 3: Verify Main Item 3 has no submenu
+ID: TC_MENU_03
+Tên test case: Verify Main Item 3 has no submenu
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/menu
+    2	    Hover vào “Main Item 3”
+
+Kết quả mong đợi:
+    Không có submenu hiển thị
