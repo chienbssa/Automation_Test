@@ -1,0 +1,42 @@
+Chức năng: Selectable
+URL: https://demoqa.com/selectable
+
+Test Case 1: Select item in List view
+ID: TC_SELECTABLE_01
+Tên test case: Verify select item in list
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/selectable
+    3	    Chọn tab “List”
+    4	    Click vào item bất kỳ
+
+Kết quả mong đợi:
+    Item được chọn có trạng thái active (highlight)
+
+Test Case 2: Select multiple items in List view
+ID: TC_SELECTABLE_02
+Tên test case: Verify multi select items in list
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/selectable
+    2	    Chọn tab “List”
+    3	    Click lần lượt nhiều item
+
+Kết quả mong đợi:
+    Item cuối cùng được chọn có trạng thái active
+
+Test Case 3: Select item in Grid view
+ID: TC_SELECTABLE_03
+Tên test case: Verify select item in grid
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/selectable
+    2	    Chọn tab “Grid”
+    3	    Click vào item bất kỳ
+
+Kết quả mong đợi:
+    Item được chọn hiển thị trạng thái active

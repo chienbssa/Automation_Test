@@ -1,0 +1,62 @@
+Chức năng: Droppable
+URL: https://demoqa.com/droppable
+
+Test Case 1: Drag and drop in Simple tab
+ID: TC_DROPPABLE_01
+Tên test case: Verify drag and drop in Simple
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/droppable
+    3	    Chọn tab “Simple”
+    4	    Kéo “Drag me” vào vùng “Drop here”
+
+Kết quả mong đợi:
+    Vùng drop hiển thị “Dropped!”
+    Màu nền thay đổi
+
+Test Case 2: Drag and drop accepted element
+ID: TC_DROPPABLE_02
+Tên test case: Verify accept droppable
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/droppable
+    2	    Chọn tab “Accept”
+    3	    Kéo “Acceptable” vào vùng drop
+    4	    Kéo “Not Acceptable” vào vùng drop
+
+Kết quả mong đợi:
+    Acceptable được drop thành công
+    Not Acceptable không được chấp nhận
+
+Test Case 3: Drag and drop prevent propagation
+ID: TC_DROPPABLE_03
+Tên test case: Verify prevent propagation
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/droppable
+    2	    Chọn tab “Prevent Propogation”
+    3	    Kéo draggable vào inner droppable
+    4	    Kéo draggable vào outer droppable
+
+Kết quả mong đợi:
+    Inner và Outer xử lý drop đúng theo mô tả
+
+Test Case 4: Drag and drop revert draggable
+ID: TC_DROPPABLE_04
+Tên test case: Verify revert draggable
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/droppable
+    2	    Chọn tab “Revert Draggable”
+    3	    Kéo draggable vào vùng drop
+    4	    Quan sát vị trí sau khi thả
+
+Kết quả mong đợi:
+    Revertable trở về vị trí ban đầu
+    Non-revertable không quay lại
+
