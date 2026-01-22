@@ -1,0 +1,37 @@
+Chức năng: Search book and click
+URL: https://demoqa.com/books/
+
+Test Case 1: Search và chọn sách thành công khi đã login bằng API
+ID: TC_BOOK_01
+Tên test case: Search và chọn sách thành công khi đã login bằng API
+
+Pre-condition:
+    Book Store Application hoạt động bình thường
+    Tài khoản hợp lệ tồn tại trong hệ thống
+    API Generate Token hoạt động
+    User chưa login bằng UI
+
+Test data:
+    Username: demo1
+    Password: Demo123@
+    Book name: Git Pocket Guide
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Gọi API Generate Token với username và password hợp lệ
+    2	    Lấy token từ response trả về
+    3	    Lưu token vào localStorage của trình duyệt
+    4       Truy cập trang Book Store
+    5       Nhập tên sách "Git Pocket Guide" vào ô Search
+    6       Click chọn sách "Git Pocket Guide" trong danh sách kết quả
+
+Kết quả mong đợi:
+    Truy cập trang Book Store thành công mà không cần login UI
+    Danh sách sách được filter đúng theo từ khóa tìm kiếm
+    Click vào sách thành công
+    Điều hướng sang trang chi tiết sách
+    URL chứa ISBN của sách /9781449325862/
+
+
+
+    
