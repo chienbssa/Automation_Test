@@ -1,0 +1,29 @@
+Chức năng: Sortable
+URL: https://demoqa.com/sortable
+
+Test Case 1: Reorder items in List view
+ID: TC_SORTABLE_01
+Tên test case: Verify reorder list items
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/sortable
+    3	    Chọn tab “List”
+    4	    Kéo item “One” xuống vị trí khác
+
+Kết quả mong đợi:
+    Thứ tự các item trong list thay đổi
+
+Test Case 2: Reorder items in Grid view
+ID: TC_SORTABLE_02
+Tên test case: Verify reorder grid items
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/sortable
+    2	    Chọn tab “Grid”
+    3	    Kéo item trong grid sang vị trí khác
+
+Kết quả mong đợi:
+    Thứ tự các item trong grid thay đổi
