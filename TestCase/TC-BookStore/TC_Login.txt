@@ -1,0 +1,83 @@
+Chức năng: Login
+URL: https://demoqa.com/login/
+
+Test Case 1: Login thành công với username và password hợp lệ
+ID: TC_LOGIN_01
+Tên test case: Login thành công với username và password hợp lệ
+
+Pre-condition:
+    User đã truy cập Book Store Application
+    Tài khoản hợp lệ tồn tại trong hệ thống
+
+Test data:
+    Username: demo1
+    Password: Demo123@
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập trang Login
+    2	    Nhập username hợp lệ
+    3	    Nhập password hợp lệ
+    4       Click nút Login
+
+Kết quả mong đợi:
+    Đăng nhập thành công
+    Hiển thị username tại khu vực thông tin người dùng
+    Không hiển thị thông báo lỗi
+
+Test Case 2: Login thất bại với username sai và password đúng
+ID: TC_LOGIN_02
+Tên test case: Login thất bại với username sai và password đúng
+
+Test data:
+    Username: demofale
+    Password: Demo123@
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập trang Login
+    2	    Nhập username không tồn tại
+    3	    Nhập password đúng
+    4	    Click nút Login
+
+Kết quả mong đợi:
+    Đăng nhập không thành công
+    Hiển thị thông báo lỗi: "Invalid username or password!"
+
+Test Case 3: Login thất bại với username đúng và password sai
+ID: TC_LOGIN_03
+Tên test case: Login thất bại với username đúng và password sai
+
+Test data:
+    Username: demo1
+    Password: demo123
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập trang Login
+    2	    Nhập username hợp lệ
+    3	    Nhập password sai
+    4       Click nút Login
+
+Kết quả mong đợi:
+    Đăng nhập không thành công
+    Hiển thị thông báo lỗi: "Invalid username or password!"
+
+Test Case 4: Login thất bại với username và password đều sai
+ID: TC_LOGIN_04
+Tên test case: Login thất bại với username và password đều sai
+
+Test data:
+    Username: demofale
+    Password: demo123
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập trang Login
+    2	    Truy cập trang Login
+    3	    Nhập username sai
+    4       Click nút Login
+
+Kết quả mong đợi:
+    Đăng nhập không thành công
+    Hiển thị thông báo lỗi: "Invalid username or password!"

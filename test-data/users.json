@@ -1,0 +1,11 @@
+{
+    "validUser": {
+        "username": "demo1",
+        "password": "Demo123@",
+        "userId": "71c7fdcf-b9e2-4298-841c-be7a431afd33"
+    },
+    "invalidUser": {
+        "username": "demo2",
+        "password": "demo123"
+    }
+}
