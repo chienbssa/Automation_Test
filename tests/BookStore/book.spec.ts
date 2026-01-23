@@ -3,7 +3,7 @@ import users from '../../test-data/users.json';
 import { UserAPI } from '../../api/UserAPI';
 import { BookStorePage } from '../../pages/BookStorePage';
 
-test('Search book UI (login bằng API)', async ({ page, request }) => {
+test('TC_BOOK_01 - Search book UI (login bằng API)', async ({ page, request }) => {
     const userApi = new UserAPI(request);
 
     const tokenRes = await userApi.generateToken(

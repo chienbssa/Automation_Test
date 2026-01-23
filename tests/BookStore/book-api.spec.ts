@@ -4,7 +4,7 @@ import books from '../../test-data/books.json';
 import { UserAPI } from '../../api/UserAPI';
 import { BookAPI } from '../../api/BookAPI';
 
-test('Generate token → Authorized → Add book', async ({ request }) => {
+test('TC_BOOK_API_01 - Add book using API', async ({ request }) => {
     const userApi = new UserAPI(request);
     const bookApi = new BookAPI(request);
 
