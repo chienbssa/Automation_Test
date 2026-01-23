@@ -1,0 +1,42 @@
+Chức năng: Radio Button
+URL: https://demoqa.com/radio-button
+
+Test Case 1: Chọn radio button “Yes”
+ID: TC_RADIO_01
+Tên test case: Select Yes radio button
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1   	Mở trình duyệt
+    2	    Truy cập https://demoqa.com/radio-button
+    3   	Click radio button “Yes”
+
+Kết quả mong đợi:
+    Radio button “Yes” được chọn
+    Kết quả hiển thị bên dưới là “You have selected Yes”
+
+Test Case 2: Chọn radio button “Impressive”
+ID: TC_RADIO_02
+Tên test case: Select Impressive radio button
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1   	Truy cập https://demoqa.com/radio-button
+    2	    Click radio button “Impressive”
+
+Kết quả mong đợi:
+    Radio button “Impressive” được chọn
+    Kết quả hiển thị là “You have selected Impressive”
+
+Test Case 3: Verify radio button “No” bị disable
+ID: TC_RADIO_03
+Tên test case: Verify No radio button is disabled
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1   	Truy cập https://demoqa.com/radio-button
+    2   	Quan sát radio button “No”
+
+Kết quả mong đợi:
+    Radio button “No” bị disable
+    Không thể click chọn

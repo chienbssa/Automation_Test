@@ -1,0 +1,38 @@
+Chức năng: Book API
+
+Test Case 1: Add book vào collection bằng API
+ID: TC_BOOK_API_01
+Tên test case: Add book vào collection bằng API
+
+Pre-condition:
+    Book Store Application API hoạt động bình thường
+    User hợp lệ tồn tại trong hệ thống
+    User có userId hợp lệ
+    Sách với ISBN tồn tại trong hệ thống
+    User có thể đã hoặc chưa có sách trong collection
+
+Test data:
+    Username: demo1
+    Password: Demo123@
+    UserId: (lấy từ users.validUser.userId)
+    ISBN: books.isbnList[0]
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Gọi API Generate Token với username và password hợp lệ
+    2	    Kiểm tra status code trả về
+    3	    Lấy token từ response
+    4       Gọi API Authorized với username và password
+    5       Kiểm tra status code trả về
+    6       Gọi API Add Book với userId, ISBN và token
+    7       Kiểm tra status code của API Add Book
+
+Kết quả mong đợi:
+    API Generate Token trả về status code 200
+    API Authorized trả về status code 200
+    API Add Book:
+        Trả về status code 201 nếu sách được thêm mới vào collection
+        Trả về status code 400 nếu sách đã tồn tại trong collection
+    Nếu status code là 400, response trả về message phù hợp
+    Hệ thống xử lý đúng cả 2 trường hợp hợp lệ (add mới hoặc sách đã tồn tại)
+

@@ -1,0 +1,55 @@
+Chức năng: Broken Links – Images
+URL: https://demoqa.com/broken
+
+Test Case 1: Verify valid image hiển thị đúng
+ID: TC_BROKEN_01
+Tên test case: Verify valid image is displayed
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/broken
+    3	    Quan sát hình ảnh đầu tiên (Valid image)
+
+Kết quả mong đợi:
+    Hình ảnh hiển thị bình thường
+    Không bị vỡ (broken)
+
+Test Case 2: Verify broken image không hiển thị
+ID: TC_BROKEN_02
+Tên test case: Verify broken image
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/broken
+    2	    Quan sát hình ảnh thứ hai (Broken image) và so sánh với hình ảnh thứ nhất (valid image)
+
+Kết quả mong đợi:
+    Ảnh broken khác với ảnh valid
+    Image bị broken
+
+Test Case 3: Click valid link
+ID: TC_BROKEN_03
+Tên test case: Verify valid link navigation
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/broken
+    2   	Click link “Click Here for Valid Link”
+
+Kết quả mong đợi:
+    Điều hướng đến trang hợp lệ
+    Không gặp lỗi 404
+
+Test Case 4: Click broken link
+ID: TC_BROKEN_04
+Tên test case: Verify broken link
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/broken
+    2	    Click link “Click Here for Broken Link”
+
+Kết quả mong đợi:
+    Điều hướng đến trang lỗi
+    Hiển thị lỗi 500 hoặc 404

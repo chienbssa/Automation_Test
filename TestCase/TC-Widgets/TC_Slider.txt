@@ -1,0 +1,30 @@
+Chức năng: Slider
+URL: https://demoqa.com/slider
+
+Test Case 1: Move slider to a specific value
+ID: TC_SLIDER_01
+Tên test case: Verify move slider
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/slider
+    3	    Kéo slider sang phải
+    4	    Kiểm tra giá trị slider
+
+Kết quả mong đợi:
+    Giá trị slider thay đổi
+    Giá trị hiển thị đúng với vị trí kéo
+
+Test Case 2: Set slider value by input
+ID: TC_SLIDER_02
+Tên test case: Verify set slider value
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/slider
+    2	    Nhập giá trị vào slider
+    3	    Kiểm tra giá trị slider
+
+Kết quả mong đợi:
+    Slider nhận đúng giá trị nhập vào

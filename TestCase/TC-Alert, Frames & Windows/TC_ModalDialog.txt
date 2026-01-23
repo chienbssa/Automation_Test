@@ -1,0 +1,35 @@
+Chức năng: Modal Dialogs
+URL: https://demoqa.com/modal-dialogs
+
+Test Case 1: Verify small modal dialog
+ID: TC_MODAL_01
+Tên test case: Verify Small Modal dialog
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/modal-dialogs
+    3	    Click nút “Small modal”
+    4	    Kiểm tra nội dung modal
+    5	    Click nút “Close”
+
+Kết quả mong đợi:
+    Small Modal hiển thị
+    Nội dung modal đúng
+    Modal đóng sau khi click Close
+
+Test Case 2: Verify large modal dialog
+ID: TC_MODAL_02
+Tên test case: Verify Large Modal dialog
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/modal-dialogs
+    2	    Click nút “Large modal”
+    3	    Kiểm tra nội dung modal
+    4	    Click nút “Close”
+
+Kết quả mong đợi:
+    Large Modal hiển thị
+    Nội dung modal đúng
+    Modal đóng thành công

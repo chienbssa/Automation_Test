@@ -1,0 +1,50 @@
+Chức năng: Web Tables
+URL: https://demoqa.com/webtables
+
+Test Case 1: Thêm mới một bản ghi trong Web Table
+ID: TC_WEBTABLE_01
+Tên test case: Add new record into Web Table
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2   	Truy cập https://demoqa.com/webtables
+    3   	Click nút Add
+    4   	Nhập First Name = Nguyen
+    5	    Nhập Last Name = Van A
+    6	    Nhập Email = nguyenvana@gmail.com
+    7	    Nhập Age = 25
+    8	    Nhập Salary = 1000
+    9	    Nhập Department = IT
+    10	    Click Submit
+
+Kết quả mong đợi:
+    Bản ghi mới được hiển thị trong bảng
+    Dữ liệu hiển thị đúng với dữ liệu đã nhập
+
+Test Case 2: Sửa thông tin bản ghi trong Web Table
+ID: TC_WEBTABLE_02
+Tên test case: Edit existing record
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/webtables
+    2	    Click icon Edit của bản ghi đầu tiên
+    3	    Thay đổi Department = HR
+    4   	Click Submit
+
+Kết quả mong đợi:
+    Bản ghi được cập nhật
+    Cột Department hiển thị HR
+
+Test Case 3: Xóa bản ghi trong Web Table
+ID: TC_WEBTABLE_03
+Tên test case: Delete record from Web Table
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/webtables
+    2   	Click icon Delete của bản ghi đầu tiên
+
+Kết quả mong đợi:
+    Bản ghi bị xóa khỏi bảng

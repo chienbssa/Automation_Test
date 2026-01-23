@@ -1,0 +1,31 @@
+Chức năng: Upload and Download
+URL: https://demoqa.com/upload-download
+
+Test Case 1: Download file thành công
+ID: TC_UPLOAD_DOWNLOAD_01
+Tên test case: Verify file download successfully
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/upload-download
+    3	    Click nút Download
+
+Kết quả mong đợi:
+    File được download thành công
+    File tồn tại trong thư mục download
+
+Test Case 2: Upload file thành công
+ID: TC_UPLOAD_DOWNLOAD_02
+Tên test case: Verify file upload successfully
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/upload-download
+    2	    Click nút Choose File
+    3	    Chọn file bất kỳ từ máy
+    4	    Upload file
+
+Kết quả mong đợi:
+    Tên file được hiển thị sau khi upload
+    Upload thành công

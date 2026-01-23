@@ -1,0 +1,44 @@
+Chức năng: Tool Tips
+URL: https://demoqa.com/tool-tips
+
+Test Case 1: Verify tooltip on button
+ID: TC_TOOL_TIP_01
+Tên test case: Verify tooltip on button
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/tool-tips
+    3	    Hover vào nút “Hover me to see”
+    4	    Quan sát tooltip
+
+Kết quả mong đợi:
+    Tooltip hiển thị
+    Nội dung tooltip đúng
+
+Test Case 2: Verify tooltip on text field
+ID: TC_TOOL_TIP_02
+Tên test case: Verify tooltip on text field
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/tool-tips
+    2	    Hover vào ô text
+    3	    Quan sát tooltip
+
+Kết quả mong đợi:
+    Tooltip hiển thị
+    Nội dung tooltip đúng
+
+Test Case 3: Verify tooltip on link
+ID: TC_TOOL_TIP_03
+Tên test case: Verify tooltip on link
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/tool-tips
+    2	    Hover vào link “Contrary”
+
+Kết quả mong đợi:
+    Tooltip hiển thị
+    Nội dung tooltip đúng

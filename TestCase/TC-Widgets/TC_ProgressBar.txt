@@ -1,0 +1,45 @@
+Chức năng: Progress Bar
+URL: https://demoqa.com/progress-bar
+
+Test Case 1: Start progress bar
+ID: TC_PROGRESS_BAR_01
+Tên test case: Verify start progress bar
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/progress-bar
+    3	    Click nút “Start”
+    4	    Quan sát progress bar
+
+Kết quả mong đợi:
+    Progress bar bắt đầu chạy
+    Phần trăm tăng dần theo thời gian
+
+Test Case 2: Stop progress bar
+ID: TC_PROGRESS_BAR_02
+Tên test case: Verify stop progress bar
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/progress-bar
+    2	    Click nút “Start”
+    3	    Click nút “Stop” khi progress đang chạy
+
+Kết quả mong đợi:
+    Progress bar dừng lại
+    Phần trăm không tiếp tục tăng
+
+Test Case 3: Complete progress bar to 100%
+ID: TC_PROGRESS_BAR_03
+Tên test case: Verify progress bar reaches 100%
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/progress-bar
+    2	    Click nút “Start”
+    3	    Chờ progress bar chạy đến 100%
+
+Kết quả mong đợi:
+    Progress bar hiển thị 100%
+    Nút “Reset” hiển thị

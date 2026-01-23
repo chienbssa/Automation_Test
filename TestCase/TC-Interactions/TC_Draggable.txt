@@ -1,0 +1,56 @@
+Chức năng: Draggable
+URL: https://demoqa.com/dragabble
+
+Test Case 1: Drag element freely
+ID: TC_DRAGGABLE_01
+Tên test case: Verify simple drag
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/dragabble
+    3	    Kéo element theo bất kỳ hướng nào
+
+Kết quả mong đợi:
+    Element di chuyển theo thao tác kéo
+
+Test Case 2: Drag element within axis restriction
+ID: TC_DRAGGABLE_02
+Tên test case: Verify axis restricted drag
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/dragabble
+    2	    Chọn tab “Axis Restricted”
+    3	    Kéo element theo trục X
+    4	    Kéo element theo trục Y
+
+Kết quả mong đợi:
+    Element X chỉ di chuyển theo trục X
+    Element Y chỉ di chuyển theo trục Y
+
+Test Case 3: Drag element within container
+ID: TC_DRAGGABLE_03
+Tên test case: Verify container restricted drag
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/dragabble
+    2	    Chọn tab “Container Restricted”
+    3	    Kéo element trong container
+
+Kết quả mong đợi:
+    Element không vượt ra ngoài container
+
+Test Case 4: Drag element with cursor style
+ID: TC_DRAGGABLE_04
+Tên test case: Verify cursor style drag
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/dragabble
+    2	    Chọn tab “Cursor Style”
+    3	    Kéo element
+
+Kết quả mong đợi:
+    Element di chuyển đúng theo kiểu con trỏ

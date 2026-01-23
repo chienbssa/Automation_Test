@@ -1,4 +1,4 @@
-Tên chức năng: Text Box
+Chức năng: Text Box
 URL: https://demoqa.com/text-box
 
 Test Case 1: Submit form Text Box với dữ liệu hợp lệ

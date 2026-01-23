@@ -1,0 +1,55 @@
+Chức năng: Tabs
+URL: https://demoqa.com/tabs
+
+Test Case 1: Switch to Origin tab
+ID: TC_TABS_01
+Tên test case: Verify switch to Origin tab
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/tabs
+    3	    Click tab “Origin”
+
+Kết quả mong đợi:
+    Tab “Origin” được active
+    Nội dung của tab “Origin” hiển thị đúng
+
+Test Case 2: Switch to Use tab
+ID: TC_TABS_02
+Tên test case: Verify switch to Use tab
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/tabs
+    2	    Click tab “Use”
+
+Kết quả mong đợi:
+    Tab “Use” được active
+    Nội dung hiển thị đúng
+
+Test Case 3: Switch to What tab
+ID: TC_TABS_03
+Tên test case: Verify switch to What tab
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/tabs
+    2	    Click tab “What”
+
+Kết quả mong đợi:
+    Tab “What” được active
+    Nội dung hiển thị đúng
+
+Test Case 4: Disabled tab cannot be clicked
+ID: TC_TABS_04
+Tên test case: Verify disabled tab
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/tabs
+    2	    Quan sát tab “More”
+
+Kết quả mong đợi:
+    Tab “More” bị disable
+    Không click được

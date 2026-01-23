@@ -1,0 +1,29 @@
+Chức năng: Resizable
+URL: https://demoqa.com/resizable
+
+Test Case 1: Resize resizable box with restriction
+ID: TC_RESIZABLE_01
+Tên test case: Verify resize restricted box
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/resizable
+    3	    Kéo góc resize của box có giới hạn
+    4	    Thay đổi kích thước box
+
+Kết quả mong đợi:
+    Box thay đổi kích thước trong phạm vi cho phép
+
+Test Case 2: Resize resizable box without restriction
+ID: TC_RESIZABLE_02
+Tên test case: Verify resize unrestricted box
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/resizable
+    2	    Kéo góc resize của box không giới hạn
+    3	    Thay đổi kích thước box
+
+Kết quả mong đợi:
+    Box thay đổi kích thước tự do

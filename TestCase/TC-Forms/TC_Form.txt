@@ -1,0 +1,41 @@
+Chức năng: Practice Form
+URL: https://demoqa.com/automation-practice-form
+
+Test Case 1: Submit Practice Form với dữ liệu hợp lệ
+ID: TC_FORM_01
+Tên test case: Submit Practice Form successfully
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/automation-practice-form
+    3	    Nhập First Name = Nguyen
+    4	    Nhập Last Name = Van A
+    5	    Nhập Email = nguyenvana@gmail.com
+    6	    Chọn Gender = Male
+    7	    Nhập Mobile Number = 0123456789
+    8	    Chọn Date of Birth
+    9	    Nhập Subjects = Math
+    10	    Chọn Hobbies = Sports
+    11	    Upload ảnh
+    12	    Nhập Current Address
+    13  	Chọn State và City
+    14	    Click Submit
+
+Kết quả mong đợi:
+    Form được submit thành công
+    Popup hiển thị thông tin đã nhập chính xác
+
+Test Case 2: Verify required field validation
+ID: TC_FORM_02
+Tên test case: Verify validation when required fields are empty
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/automation-practice-form
+    2	    Không nhập dữ liệu
+    3	    Click Submit
+
+Kết quả mong đợi:
+    Form không được submit
+    Các trường bắt buộc được highlight

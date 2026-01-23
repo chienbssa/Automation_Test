@@ -1,0 +1,47 @@
+Chức năng: Auto Complete
+URL: https://demoqa.com/auto-complete
+
+Test Case 1: Select multiple values
+ID: TC_AUTOCOMPLETE_01
+Tên test case: Verify multi select auto complete
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Mở trình duyệt
+    2	    Truy cập https://demoqa.com/auto-complete
+    3	    Click vào ô “Type multiple color names”
+    4	    Nhập “Re”
+    5	    Chọn “Red”
+    6	    Nhập “Bl”
+    7	    Chọn “Blue”
+
+Kết quả mong đợi:
+    “Red” và “Blue” được chọn
+    Hiển thị dưới dạng tag
+
+Test Case 2: Remove selected value
+ID: TC_AUTOCOMPLETE_02
+Tên test case: Verify remove selected value
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/auto-complete
+    2	    Chọn nhiều màu
+    3	    Click nút “x” trên tag
+
+Kết quả mong đợi:
+    Tag bị xóa khỏi danh sách
+
+Test Case 3: Select single value
+ID: TC_AUTOCOMPLETE_03
+Tên test case: Verify single select auto complete
+
+Các bước thực hiện:
+    Bước	Mô tả
+    1	    Truy cập https://demoqa.com/auto-complete
+    2	    Click vào ô “Type single color name”
+    3	    Nhập “Gr”
+    4	    Chọn “Green”
+
+Kết quả mong đợi:
+    Giá trị “Green” được hiển thị
