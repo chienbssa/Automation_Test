@@ -15,18 +15,29 @@ test.describe('Widgets - Tool Tips', () => {
         await page.goto('https://demoqa.com/tool-tips');
 
         const input = page.locator('#toolTipTextField');
+
         await input.hover();
 
-        await expect(page.locator('.tooltip-inner')).toHaveText('You hovered over the text field');
+        const tooltip = page.locator('.tooltip-inner');
+
+        await tooltip.waitFor({ state: 'visible' });
+
+        await expect(tooltip).toHaveText('You hovered over the text field');
     });
 
-    test('TC_TOOL_TIP_03 - Verify tooltip on link', async ({ page }) => {
+
+    test('TC_TOOL_TIP_03 - Verify tooltip on button', async ({ page }) => {
         await page.goto('https://demoqa.com/tool-tips');
 
-        const link = page.locator('a:has-text("Contrary")');
-        await link.hover();
+        const button = page.locator('#toolTipButton');
 
-        await expect(page.locator('.tooltip-inner')).toHaveText('You hovered over the Contrary');
+        await button.hover();
+
+        const tooltip = page.locator('.tooltip-inner');
+
+        await tooltip.waitFor({ state: 'visible' });
+
+        await expect(tooltip).toHaveText('You hovered over the Button');
     });
 
 });
