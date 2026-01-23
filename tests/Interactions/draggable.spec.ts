@@ -5,7 +5,7 @@ test.describe('Interactions - Draggable', () => {
     test('TC_DRAGGABLE_01 - Simple drag', async ({ page }) => {
         await page.goto('https://demoqa.com/dragabble');
 
-        await page.mouse.wheel(0, 500);
+        await page.mouse.wheel(0, 300);
 
         const dragBox = page.locator('#dragBox');
         const before = await dragBox.boundingBox();
@@ -31,7 +31,7 @@ test.describe('Interactions - Draggable', () => {
     test('TC_DRAGGABLE_02 - Axis restricted drag', async ({ page }) => {
         await page.goto('https://demoqa.com/dragabble');
 
-        await page.mouse.wheel(0, 500);
+        await page.mouse.wheel(0, 300);
 
         await page.locator('#draggableExample-tab-axisRestriction').click();
 
